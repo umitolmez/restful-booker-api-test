@@ -46,7 +46,7 @@ Before running the tests, ensure you have the following installed:
 ## 5. Setup Instructions
 1.  **Clone the repository:**
     ```bash
-    git clone [your-repo-url]
+    git clone https://github.com/umitolmez/restful-booker-api-test
     cd restful-booker-api-test
     ```
 2.  **Verify Java and Maven Setup:**
