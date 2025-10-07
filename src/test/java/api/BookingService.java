@@ -67,14 +67,4 @@ public class BookingService {
                 .delete(ConfigReader.getBaseUrl() + BOOKING_ENDPOINT + "/{id}");
     }
 
-
-    // Diğer Booking endpoint metotları (getBooking, updateBooking, deleteBooking vb.) buraya eklenecektir.
-    // Örneğin:
-    // public Response getBooking(int bookingId) {
-    //     return given()
-    //             .accept(ContentType.JSON)
-    //             .pathParam("id", bookingId)
-    //             .when()
-    //             .get(ConfigReader.getBaseUrl() + BOOKING_ENDPOINT + "/{id}");
-    // }
 }
